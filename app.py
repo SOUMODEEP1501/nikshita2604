@@ -33,7 +33,7 @@ embarked_map = {'S': 0, 'C': 1, 'Q': 2}
 
 # Create the input dictionary for prediction
 input_data = {
-    Pregnancies': Pregnancies,
+    'Pregnancies': Pregnancies,
     'Glucose': Glucose,
     'BloodPressure': BloodPressure,
     'SkinThickness': SkinThickness,
