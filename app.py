@@ -18,7 +18,7 @@ def predict_survival(d):
 st.title("Diabetes")
 
 # Input fields for each parameter
-pclass = st.selectbox("Pregnancies", min_value=0, max_value=17, value=0, step=1)
+Pregnancies = st.number_input("Pregnancies", min_value=0, max_value=17, value=0, step=1)
 Glucose = st.number_input("Glucose", min_value=0, max_value=199, value=0, step=1)
 BloodPressure = st.number_input("BloodPressure", min_value=0, max_value=122, value=0, step=1)
 SkinThickness = st.number_input("SkinThickness", min_value=0, max_value=99, value=0, step=1)
